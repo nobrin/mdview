@@ -1,0 +1,64 @@
+/* create from GitHub */
+#markdown-help{display:none;}
+.markdown-body{font-size:14px;line-height:1.6;}
+.markdown-body>*:first-child{margin-top:0!important;}
+.markdown-body>*:last-child{margin-bottom:0!important;}
+.markdown-body a.absent{color:#c00;}
+.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin:0;padding:0;}
+.markdown-body h1{margin:15px 0;padding-bottom:2px;font-size:24px;border-bottom:1px solid #eee;}
+.markdown-body h2{margin:20px 0 10px 0;font-size:18px;}
+.markdown-body h3{margin:20px 0 10px 0;padding-bottom:2px;font-size:14px;border-bottom:1px solid #ddd;}
+.markdown-body h4{font-size:14px;line-height:26px;padding:18px 0 4px;font-weight:bold;text-transform:uppercase;}
+.markdown-body h5{font-size:13px;line-height:26px;padding:14px 0 0;font-weight:bold;text-transform:uppercase;}
+.markdown-body h6{color:#666;font-size:14px;line-height:26px;padding:18px 0 0;font-weight:normal;font-variant:italic;}
+.markdown-body hr{background:transparent url('dirty-shade.png') repeat-x 0 0;border:0 none;color:#ccc;height:4px;margin:20px 0;padding:0;} 
+.markdown-body>h2:first-child,.markdown-body>h1:first-child,.markdown-body>h1:first-child+h2{border:0;margin:0;padding:0;}
+.markdown-body>h3:first-child,.markdown-body>h4:first-child,.markdown-body>h5:first-child,.markdown-body>h6:first-child{margin:0;padding:0;}
+.markdown-body h4+p,.markdown-body h5+p,.markdown-body h6+p{margin-top:0;}
+.markdown-body li p.first{display:inline-block;}
+.markdown-body ul,.markdown-body ol{margin:15px 0 15px 25px;}
+.markdown-body ul li,.markdown-body ol li{margin-top:7px;margin-bottom:7px;}
+.markdown-body ul li>*:last-child,.markdown-body ol li>*:last-child{margin-bottom:0;}
+.markdown-body ul li>*:first-child,.markdown-body ol li>*:first-child{margin-top:0;}
+.markdown-body>ul,.markdown-body>.document>ul,.markdown-body>ol,.markdown-body>.document>ol{margin-top:21px;margin-left:36px;}
+.markdown-body dl{margin:0;padding:20px 0 0;}
+.markdown-body dl dt{font-size:14px;font-weight:bold;line-height:normal;margin:0;padding:20px 0 0;}
+.markdown-body dl dt:first-child{padding:0;}
+.markdown-body dl dd{font-size:13px;margin:0;padding:3px 0 0;}
+.markdown-body blockquote{margin:14px 0;border-left:4px solid #ddd;padding-left:11px;color:#555;}
+.markdown-body table{border-collapse:collapse;margin:20px 0 0;padding:0;}
+.markdown-body table tr{border-top:1px solid #ccc;background-color:#fff;margin:0;padding:0;}
+.markdown-body table tr:nth-child(2n){background-color:#f8f8f8;}
+.markdown-body table tr th,.markdown-body table tr td{border:1px solid #ccc;text-align:left;margin:0;padding:6px 13px;}
+.markdown-body img{max-width:100%;}
+.markdown-body span.frame{display:block;overflow:hidden;}
+.markdown-body span.frame>span{border:1px solid #ddd;display:block;float:left;overflow:hidden;margin:13px 0 0;padding:7px;width:auto;}
+.markdown-body span.frame span img{display:block;float:left;}
+.markdown-body span.frame span span{clear:both;color:#333;display:block;padding:5px 0 0;}
+.markdown-body span.align-center{display:block;overflow:hidden;clear:both;}
+.markdown-body span.align-center>span{display:block;overflow:hidden;margin:13px auto 0;text-align:center;}
+.markdown-body span.align-center span img{margin:0 auto;text-align:center;}
+.markdown-body span.align-right{display:block;overflow:hidden;clear:both;}
+.markdown-body span.align-right>span{display:block;overflow:hidden;margin:13px 0 0;text-align:right;}
+.markdown-body span.align-right span img{margin:0;text-align:right;}
+.markdown-body span.float-left{display:block;margin-right:13px;overflow:hidden;float:left;}
+.markdown-body span.float-left span{margin:13px 0 0;}
+.markdown-body span.float-right{display:block;margin-left:13px;overflow:hidden;float:right;}
+.markdown-body span.float-right>span{display:block;overflow:hidden;margin:13px auto 0;text-align:right;}
+.markdown-body code,.markdown-body tt{margin:0 2px;padding:2px 5px;white-space:nowrap;border:1px solid #ccc;background-color:#f8f8f8;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.markdown-body pre>code{margin:0;padding:0;white-space:pre;border:none;background:transparent;}
+.markdown-body .highlight pre,.markdown-body pre{background-color:#f8f8f8;border:1px solid #ccc;font-size:13px;line-height:19px;overflow:auto;padding:6px 10px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.markdown-body>pre,.markdown-body>div.highlight{margin:10px 0 0;}
+.markdown-body pre code,.markdown-body pre tt{background-color:transparent;border:none;}
+/*
+#readme .markdown-body,#readme .plain{background-color:#fff;border:1px solid #CACACA;padding:30px;}
+#files #readme .markdown-body{border:0 none;padding:0;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;}
+*/
+.styleguide .markdown-body>pre,.styleguide .markdown-body>.highlight>pre{margin:15px auto;width:720px;padding:10px;background:#edf6f8;border:1px solid #dde7ea;border-radius:3px;box-shadow:0 0 5px rgba(0,0,0,0.1);overflow:auto;}
+#wiki-wrapper .markdown-body>h1:first-child,#wiki-wrapper .gollum-rest-content .markdown-body>div:first-child>div:first-child>h1:first-child,#wiki-wrapper .gollum-pod-content .markdown-body>a.dummyTopAnchor:first-child+h1,#wiki-wrapper .gollum-org-content .markdown-body>p.title:first-child,#wiki-wrapper .gollum-asciidoc-content .markdown-body>div#header:first-child>h1:first-child{display:none;}
+
+#readme{padding:3px;background:#EEE;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+#readme span.name{font-size:16px;line-height:20px;font-weight:bold;padding:10px 10px;color:#555;text-shadow:0 1px 0 #fff;display:block;border:1px solid #CACACA;border-bottom:0 none;background-color:#fafafa;background:-moz-linear-gradient(#fafafa,#eaeaea);background:-ms-linear-gradient(#fafafa,#eaeaea);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fafafa),color-stop(100%,#eaeaea));background:-webkit-linear-gradient(#fafafa,#eaeaea);background:-o-linear-gradient(#fafafa,#eaeaea);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";background:linear-gradient(#fafafa,#eaeaea);}
+#readme span.name .icon{display:inline-block;vertical-align:baseline;height:16px;width:17px;margin-right:5px;margin-bottom:-2px;background-image:url('readme-icon.png');background-repeat:no-repeat;background-position:0 0;}
+#readme .markdown-body,#readme .plain{background-color:#fff;border:1px solid #CACACA;padding:30px;}
+#readme .plain pre{font-size:17px;white-space:pre-wrap;}
