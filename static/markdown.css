@@ -1,5 +1,8 @@
 /* create from GitHub */
 body{background-color:white;font:13.34px helvetica,arial,freesans,clean,sans-serif;*font-size:small;line-height:1.4;}
+a{color:#4183c4;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:active{outline:none;}
 
 #markdown-help{display:none;}
 .markdown-body{font-size:14px;line-height:1.6;}
