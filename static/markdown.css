@@ -1,4 +1,5 @@
 /* create from GitHub */
+*{margin:0;padding:0;}
 body{background-color:white;font:13.34px helvetica,arial,freesans,clean,sans-serif;*font-size:small;line-height:1.4;}
 a{color:#4183c4;text-decoration:none;}
 a:hover{text-decoration:underline;}
@@ -62,7 +63,7 @@ a:active{outline:none;}
 .styleguide .markdown-body>pre,.styleguide .markdown-body>.highlight>pre{margin:15px auto;width:720px;padding:10px;background:#edf6f8;border:1px solid #dde7ea;border-radius:3px;box-shadow:0 0 5px rgba(0,0,0,0.1);overflow:auto;}
 #wiki-wrapper .markdown-body>h1:first-child,#wiki-wrapper .gollum-rest-content .markdown-body>div:first-child>div:first-child>h1:first-child,#wiki-wrapper .gollum-pod-content .markdown-body>a.dummyTopAnchor:first-child+h1,#wiki-wrapper .gollum-org-content .markdown-body>p.title:first-child,#wiki-wrapper .gollum-asciidoc-content .markdown-body>div#header:first-child>h1:first-child{display:none;}
 
-#readme{padding:3px;background:#EEE;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+#readme{margin:1em;padding:3px;background:#EEE;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
 #readme span.name{font-size:16px;line-height:20px;font-weight:bold;padding:10px 10px;color:#555;text-shadow:0 1px 0 #fff;display:block;border:1px solid #CACACA;border-bottom:0 none;background-color:#fafafa;background:-moz-linear-gradient(#fafafa,#eaeaea);background:-ms-linear-gradient(#fafafa,#eaeaea);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fafafa),color-stop(100%,#eaeaea));background:-webkit-linear-gradient(#fafafa,#eaeaea);background:-o-linear-gradient(#fafafa,#eaeaea);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";background:linear-gradient(#fafafa,#eaeaea);}
 #readme span.name .icon{display:inline-block;vertical-align:baseline;height:16px;width:17px;margin-right:5px;margin-bottom:-2px;background-image:url('readme-icon.png');background-repeat:no-repeat;background-position:0 0;}
 #readme .markdown-body,#readme .plain{background-color:#fff;border:1px solid #CACACA;padding:30px;}
